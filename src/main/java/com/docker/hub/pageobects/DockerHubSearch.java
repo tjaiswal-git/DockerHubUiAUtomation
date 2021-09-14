@@ -17,11 +17,9 @@ public class DockerHubSearch extends TestBase
     public static final Logger logger = Logger.getLogger(DockerHubSearch.class
             .getName());
     private static final String ARGUMENTS_0_CLICK = "arguments[0].click()";
-    public WebDriver driver;
 
     public DockerHubSearch(WebDriver driver)
     {
-        this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
