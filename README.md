@@ -10,4 +10,4 @@ https://chromedriver.chromium.org/downloads
 
 3) Run this DockerHUBWebTest.java
 4) Another way to run through maven command
-     mvn clean install -Dmaven.test.skip=true -Dmaven.native.skip=true
+     mvn clean install -Dmaven.native.skip=true
