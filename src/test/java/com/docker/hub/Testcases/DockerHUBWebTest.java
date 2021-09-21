@@ -2,6 +2,8 @@ package com.docker.hub.Testcases;
 
 import com.docker.hub.pageobects.DockerHubSearch;
 import com.docker.hub.utility.TestBase;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -24,8 +26,8 @@ public class DockerHUBWebTest extends TestBase
         init(URL1);
     }
 
-    @Test(enabled = true, priority = 1)
-
+    @Test(enabled = true, priority = 1, description = "THis is validate container page is visible")
+    @Severity(SeverityLevel.CRITICAL)
     public void testContainerPage() throws InterruptedException
     {
         logger.info("===Started Verifying testContainerPage=====");
@@ -35,8 +37,8 @@ public class DockerHUBWebTest extends TestBase
     }
 
 
-    @Test(enabled = true, priority = 2)
-
+    @Test(enabled = true, priority = 2,description = "This is verify label")
+    @Severity(SeverityLevel.MINOR)
     public void testVerifyLabel() throws InterruptedException
     {
         logger.info("===Started Verifying testVerifyLabel=====");
@@ -48,7 +50,8 @@ public class DockerHUBWebTest extends TestBase
         logger.info("===Finished Verifying testVerifyLabel=====");
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3,description = "This is validate categories")
+    @Severity(SeverityLevel.BLOCKER)
     public void testVerifyCategories() throws InterruptedException
     {
         logger.info("===Started Verifying testVerifyCategories=====");
@@ -62,7 +65,8 @@ public class DockerHUBWebTest extends TestBase
         logger.info("===Finished Verifying testVerifyCategories=====");
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4,description = "VErify the publisher content")
+    @Severity(SeverityLevel.NORMAL)
 
     public void testPublisherContent() throws InterruptedException
     {
@@ -72,8 +76,8 @@ public class DockerHUBWebTest extends TestBase
         logger.info("===Finished Verifying testPublisherContent=====");
     }
 
-    @Test(priority = 5)
-
+    @Test(priority = 5,description = "This is verify the databse and base image validation")
+    @Severity(SeverityLevel.BLOCKER)
     public void testBaseImageAndDatabaseFilterContent() throws InterruptedException
     {
         logger.info("===Started Verifying testBaseImageAndDatabaseFilterContent=====");
@@ -84,8 +88,8 @@ public class DockerHUBWebTest extends TestBase
         logger.info("===Finished Verifying testBaseImageAndDatabaseFilterContent=====");
     }
 
-    @Test(priority = 6)
-
+    @Test(priority = 6,description = "Base image removal from left pane")
+    @Severity(SeverityLevel.CRITICAL)
     public void testBaseImageFilterRemovedFromLeftPane() throws InterruptedException
     {
         logger.info("===Started Verifying testBaseImageFilterRemovedFromLeftPane=====");

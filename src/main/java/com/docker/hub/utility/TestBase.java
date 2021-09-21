@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -105,10 +106,11 @@ public class TestBase
         }
         else if(browser.equalsIgnoreCase("chrome"))
         {
-            DesiredCapabilities ds1 = new DesiredCapabilities().chrome();
-            ds1.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//src/main//Configuration//chromedriver.exe");
-            driver = new ChromeDriver(ds1);
+            WebDriverManager.chromedriver().setup();
+            //DesiredCapabilities ds1 = new DesiredCapabilities().chrome();
+            //ds1.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+            //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//src/main//Configuration//chromedriver.exe");
+            driver = new ChromeDriver();
             logger.info("chrome browser has launching..");
 
         }

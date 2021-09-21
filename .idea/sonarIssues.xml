@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/DSAProblem/src/main/java/basicsjava/OccurMul.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/DSAProblem/src/main/java/basicsjava/WriteText.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Autodownloader/AutoDownloaderSoftware-master/Configuration/Prop.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Autodownloader/AutoDownloaderSoftware-master/test-output/Default suite/Default test.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/log/DockerHubWeb.log">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/log/DockerHubWebHtml.html">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -43,7 +73,122 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../ZenAuto/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../sampleprogram/src/main/java/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/cafgitsvn/caf-repo/framework/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-core/server/core/libraries/vertica-migration/src/main/java/com/novell/zenworks/verticamigration/util/VerticaDBHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/configure/src/com/novell/zenworks/configure/actions/ZoneInfoConfigureAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/configure/src/com/novell/zenworks/configure/actions/db/OracleIndexMovementConfigureAction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/configure/src/com/novell/zenworks/configure/util/AdvancedConfigureUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/customcode/src/com/novell/zenworks/install/customcode/ExternalDatabaseAdminPanel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/customcode/src/com/novell/zenworks/install/customcode/ExternalDatabasePanel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/customcode/src/com/novell/zenworks/install/customcode/NewZonePanel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/customcode/src/com/novell/zenworks/install/customcode/ValidateNewZoneInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/install/customcode/test/com/novell/zenworks/install/customcode/ExternalDatabasePanelTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/zencode/server-spoke/server/install/db-migration-utility/test/com/novell/zenworks/configure/util/HTMLLogViewerGeneratorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/server-spoke/server/inventory/libraries/kbmerge/src/com/novell/zenworks/inventory/kbmerge/KBMergeBundleUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/build/xplat-common-java-utils/xplat-common-java-utils_java.wxs">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/cert-utils/src/main/java/com/microfocus/zenworks/hostname/verifier/HostnameVerifierUsingAltHostNames.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/cert-utils/src/main/java/com/microfocus/zenworks/hostname/verifier/VerificationHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/BinarySerializer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/JwtDefaultClaimValues.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/JwtUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/PropertyFileHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/PublicCertificateParser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zenlib/libraries/common-java-utils/libraries/zen-oauth-library/src/main/java/com/microfocus/zenworks/utils/TokenEncryptionUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/zencode/zeuscode/zeus/zeus/zeus-push-notification/src/main/java/com/novell/zenworks/zeus/notify/module/TaskNotifierManager.java">
           <value>
             <set />
           </value>
