@@ -11,3 +11,10 @@ https://chromedriver.chromium.org/downloads
 3) Run this DockerHUBWebTest.java
 4) Another way to run through maven command
      mvn clean install -Dmaven.native.skip=true
+     
+5) to generate allure report
+     download binary from https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.15.0/
+     
+     run this command 
+     
+     allure.bat serve "path_allure-results"
