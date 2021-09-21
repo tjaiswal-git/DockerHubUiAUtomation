@@ -316,3 +316,18 @@
 2021-09-21 13:31:36,983 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testBaseImageAndDatabaseFilterContent=====
 2021-09-21 13:31:36,994 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testBaseImageFilterRemovedFromLeftPane=====
 2021-09-21 13:31:37,428 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testBaseImageFilterRemovedFromLeftPane=====
+2021-09-21 14:22:37,551 - com.docker.hub.utility.TestBase -INFO - url has lauching..
+2021-09-21 14:22:37,750 - com.docker.hub.utility.TestBase -INFO - Now Browser is maximize...
+2021-09-21 14:22:37,764 - com.docker.hub.utility.TestBase -INFO - Page loading.....
+2021-09-21 14:22:37,953 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testContainerPage=====
+2021-09-21 14:22:38,245 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testContainerPage=====
+2021-09-21 14:22:38,428 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testVerifyLabel=====
+2021-09-21 14:22:38,707 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testVerifyLabel=====
+2021-09-21 14:22:38,725 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testVerifyCategories=====
+2021-09-21 14:22:39,107 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testVerifyCategories=====
+2021-09-21 14:22:39,124 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testPublisherContent=====
+2021-09-21 14:22:39,381 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testPublisherContent=====
+2021-09-21 14:22:39,392 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testBaseImageAndDatabaseFilterContent=====
+2021-09-21 14:22:40,195 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testBaseImageAndDatabaseFilterContent=====
+2021-09-21 14:22:40,206 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Started Verifying testBaseImageFilterRemovedFromLeftPane=====
+2021-09-21 14:22:40,518 - com.docker.hub.Testcases.DockerHUBWebTest -INFO - ===Finished Verifying testBaseImageFilterRemovedFromLeftPane=====

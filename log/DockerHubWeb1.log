@@ -316,3 +316,18 @@
 2021-09-21 13:31:36,983 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testBaseImageAndDatabaseFilterContent=====
 2021-09-21 13:31:36,994 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testBaseImageFilterRemovedFromLeftPane=====
 2021-09-21 13:31:37,428 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testBaseImageFilterRemovedFromLeftPane=====
+2021-09-21 14:22:37,551 [main] INFO com.docker.hub.utility.TestBase - url has lauching..
+2021-09-21 14:22:37,750 [main] INFO com.docker.hub.utility.TestBase - Now Browser is maximize...
+2021-09-21 14:22:37,764 [main] INFO com.docker.hub.utility.TestBase - Page loading.....
+2021-09-21 14:22:37,953 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testContainerPage=====
+2021-09-21 14:22:38,245 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testContainerPage=====
+2021-09-21 14:22:38,428 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testVerifyLabel=====
+2021-09-21 14:22:38,707 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testVerifyLabel=====
+2021-09-21 14:22:38,725 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testVerifyCategories=====
+2021-09-21 14:22:39,107 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testVerifyCategories=====
+2021-09-21 14:22:39,124 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testPublisherContent=====
+2021-09-21 14:22:39,381 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testPublisherContent=====
+2021-09-21 14:22:39,392 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testBaseImageAndDatabaseFilterContent=====
+2021-09-21 14:22:40,195 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testBaseImageAndDatabaseFilterContent=====
+2021-09-21 14:22:40,206 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Started Verifying testBaseImageFilterRemovedFromLeftPane=====
+2021-09-21 14:22:40,518 [main] INFO com.docker.hub.Testcases.DockerHUBWebTest - ===Finished Verifying testBaseImageFilterRemovedFromLeftPane=====
