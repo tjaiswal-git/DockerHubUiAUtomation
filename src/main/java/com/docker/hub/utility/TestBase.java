@@ -19,6 +19,7 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Parameters;
 
 /**
  * This is parent class of all framework setup operation
@@ -31,7 +32,7 @@ public class TestBase
 {
     public static WebDriver driver;
     //String URL="";
-    String browser = "chrome";
+    String browser = "firefox";
     protected static String downloadPath = "C:\\Users\\tjaiswal\\Downloads";
 
 
@@ -71,36 +72,38 @@ public class TestBase
         return properties;
     }
 
+    @Parameters("browser")
     public void selectBrowser(String browser)
 
     {
         if(browser.equalsIgnoreCase("firefox"))
         {
-            FirefoxProfile profile = new FirefoxProfile();
-            profile.setPreference("browser.download.folderList", 2);
-            profile.setPreference("browser.download.manager.showWhenStarting", false);
-            profile.setPreference("browser.download.dir", downloadPath);
-            profile.setPreference("browser.helperApps.neverAsk.openFile",
-                    "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
-            profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
-                    "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
-            profile.setPreference("browser.helperApps.alwaysAsk.force", false);
-            profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
-            profile.setPreference("browser.download.manager.focusWhenStarting", false);
-            profile.setPreference("browser.download.manager.useWindow", false);
-            profile.setPreference("browser.download.manager.showAlertOnComplete", false);
-            profile.setPreference("browser.download.manager.closeWhenDone", false);
+            WebDriverManager.firefoxdriver().setup();
+//            FirefoxProfile profile = new FirefoxProfile();
+//            profile.setPreference("browser.download.folderList", 2);
+//            profile.setPreference("browser.download.manager.showWhenStarting", false);
+//            profile.setPreference("browser.download.dir", downloadPath);
+//            profile.setPreference("browser.helperApps.neverAsk.openFile",
+//                    "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+//            profile.setPreference("browser.helperApps.neverAsk.saveToDisk",
+//                    "text/csv,application/x-msexcel,application/excel,application/x-excel,application/vnd.ms-excel,image/png,image/jpeg,text/html,text/plain,application/msword,application/xml");
+//            profile.setPreference("browser.helperApps.alwaysAsk.force", false);
+//            profile.setPreference("browser.download.manager.alertOnEXEOpen", false);
+//            profile.setPreference("browser.download.manager.focusWhenStarting", false);
+//            profile.setPreference("browser.download.manager.useWindow", false);
+//            profile.setPreference("browser.download.manager.showAlertOnComplete", false);
+//            profile.setPreference("browser.download.manager.closeWhenDone", false);
+//
+//            DesiredCapabilities ds = new DesiredCapabilities().firefox();
+//            ds.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+//            ds.setCapability(FirefoxDriver.PROFILE, profile);
+//
+//
+//            // this is the important line - i.e. don't use Marionette
+//            ds.setCapability(FirefoxDriver.MARIONETTE, false);
 
-            DesiredCapabilities ds = new DesiredCapabilities().firefox();
-            ds.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-            ds.setCapability(FirefoxDriver.PROFILE, profile);
-
-
-            // this is the important line - i.e. don't use Marionette
-            ds.setCapability(FirefoxDriver.MARIONETTE, false);
-
-            driver = new FirefoxDriver(ds);
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//src//main//Configuration//gekodriver.exe");
+            driver = new FirefoxDriver();
+            //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//src//main//Configuration//gekodriver.exe");
             logger.info("Firefox has launching...");
 
         }
